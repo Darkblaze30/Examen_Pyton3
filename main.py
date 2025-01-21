@@ -15,3 +15,9 @@ while True:
             faltas()
         case 3:
             bonos()
+        case 4:
+            print()
+        case 5:
+            print()
+        case 6:
+            print()
