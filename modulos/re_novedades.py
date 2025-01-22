@@ -1,5 +1,6 @@
 #Espacio donde importo lo que necesito para las funciones de mi módulo
 from modulos.funciones_secundarias import cargar_archivos,v_dato,v_cantidad,v_alfabetica, a_data, fecha
+from modulos.funciones_secundarias import fecha
 
 def faltas():
 
@@ -20,8 +21,9 @@ def faltas():
         if comprobacion:
             lista_faltas = []
             lista_faltas = cargar_archivos("faltas.py")
+            dia,mes = fecha()
 
-            lista_faltas.append({"persona":{"ced": ced, "falta": 1, "fecha": fecha()}})
+            lista_faltas.append({"persona":{"ced": ced, "falta": 1, "dia": dia , "mes" : mes}})
             a_data(lista_faltas,"falta.json")
 
 
@@ -53,7 +55,9 @@ def bonos():
             lista_faltas = []
             lista_faltas = cargar_archivos("bonos.py")
 
-            lista_faltas.append({"persona":{"ced": ced, "bono": v_cantidad("---> CANTIDAD :"), "fecha": fecha()}})
+            dia, mes = fecha()
+
+            lista_faltas.append({"persona":{"ced": ced, "bono": v_cantidad("---> CANTIDAD :"), "dia": dia, "mes": mes}})
             a_data(lista_faltas,"falta.json")
 
 

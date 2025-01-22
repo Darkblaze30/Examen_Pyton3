@@ -2,7 +2,7 @@
 from modulos.menu import menu_principal
 from modulos.re_usu import i_usuario
 from modulos.re_novedades import faltas,bonos
-
+from modulos.nomina_mes import mensual
 #Inicio de la ejecución
 while True:
     respuesta = menu_principal()
@@ -16,7 +16,7 @@ while True:
         case 3:
             bonos()
         case 4:
-            print()
+            mensual()
         case 5:
             print()
         case 6:

@@ -1,34 +1,18 @@
 [
    {
       "persona": {
-         "ced": "002",
+         "ced": "111",
          "nombre": "julian",
-         "salario": 10000.0,
-         "cargo": "sdf"
+         "salario": 130000000.0,
+         "cargo": "programador"
       }
    },
    {
       "persona": {
-         "ced": "1111234",
-         "nombre": "anot",
-         "salario": 13040000.0,
-         "cargo": "jefe"
-      }
-   },
-   {
-      "persona": {
-         "ced": "12345",
-         "nombre": "PACO",
-         "salario": 133434.0,
-         "cargo": "JEFE"
-      }
-   },
-   {
-      "persona": {
-         "ced": "123455",
-         "nombre": "FEJE",
-         "salario": 34556.0,
-         "cargo": "FEJE"
+         "ced": "1117",
+         "nombre": "juan",
+         "salario": 1300000.0,
+         "cargo": "programador junior"
       }
    }
 ]
