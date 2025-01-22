@@ -69,3 +69,5 @@ def bonos():
 
         #Pregunto si quiere salir
         salida = v_alfabetica("¿Quierés salir? (si/no) ")
+        print("hola")
+        print("hola")
